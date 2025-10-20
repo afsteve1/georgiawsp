@@ -1,0 +1,80 @@
+===============================================================
+GITHUB PAGES DEPLOYMENT INSTRUCTIONS
+Georgia WSP Collection Simulation
+===============================================================
+
+EASY METHOD (Recommended):
+--------------------------
+1. Open Command Prompt or PowerShell
+2. Navigate to this folder:
+   cd "c:\Users\Steve.Caya.ARRBSYS\Downloads\Input for Shp2Roadlist - Copy\Final Input\github-pages"
+
+3. Run the deployment script:
+   deploy.bat
+
+4. After it completes, enable GitHub Pages:
+   - Go to: https://github.com/afsteve1/georgiawsp/settings/pages
+   - Under "Source", select "main" branch
+   - Click "Save"
+
+5. Wait 1-2 minutes, then visit:
+   https://afsteve1.github.io/georgiawsp/
+
+THAT'S IT! Share the link with your crew!
+
+
+MANUAL METHOD (If you prefer):
+-------------------------------
+1. Open Command Prompt in this folder
+2. Run these commands one by one:
+
+   git init
+   git add .
+   git commit -m "Add collection simulation"
+   git remote add origin https://github.com/afsteve1/georgiawsp.git
+   git branch -M main
+   git push -u origin main
+
+3. Enable GitHub Pages (same as above)
+
+
+FILES INCLUDED:
+---------------
+- index.html        : Landing page with project info
+- simulation.html   : Interactive simulation
+- README.md         : GitHub repository description
+- deploy.bat        : Automated deployment script
+
+
+SHARING WITH CREW:
+------------------
+Once deployed, share this link:
+https://afsteve1.github.io/georgiawsp/
+
+Crew members can:
+- View it on any device (desktop, tablet, phone)
+- No installation required
+- Works in any modern browser
+- Interactive playback controls
+- Real-time route visualization
+
+
+TROUBLESHOOTING:
+----------------
+If you get an error about authentication:
+1. You may need to set up GitHub authentication
+2. Use GitHub Desktop app instead (easier)
+3. Or use: gh auth login (if you have GitHub CLI)
+
+If the page shows 404:
+1. Wait 2-3 minutes after enabling GitHub Pages
+2. Make sure "Source" is set to "main" branch
+3. Try clearing browser cache
+
+Need help? Check: https://pages.github.com/
+
+
+===============================================================
+Contact: Steve Caya (Steve.Caya.ARRBSYS)
+Generated: October 2025
+===============================================================
